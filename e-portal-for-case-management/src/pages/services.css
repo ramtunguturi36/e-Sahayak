@@ -1,0 +1,125 @@
+/* services.css */
+
+.service-header {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.service-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.service {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service h2 {
+  color: #003838;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #555;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Uncomment the following if you decide to use a background image */
+/*
+.service-main {
+  background-image: url("your-image-url");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+*/
+.servicehr {
+  border: 10;
+  width: 140px;
+  height: 4px;
+  background-color: #7a7a74;
+  margin: 15px auto; /* Auto margin for horizontal centering */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+/* .hover::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.hover{
+  position: relative;
+} */
+
+.hover {
+  position: relative;
+  display: inline-block; /* Ensure that the hover effect only covers the text size */
+}
+
+.hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(63, 87%, 68%);
+  z-index: -1;
+  transition: transform 0.3s ease;
+  transform: scaleX(0); /* Initial state - hidden */
+  transform-origin: bottom left;
+}
+
+.hover:hover::before {
+  transform: scaleX(1); /* Hover state - visible */
+  transform-origin: bottom left;
+  border-radius: 3px;
+  padding: 20px;
+}
+.service h2 {
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0 rgba(50, 85, 127, 0.5), 0 4px 0 rgba(50, 85, 127, 0.5);
+  transition: box-shadow 0.3s;
+  color: inherit;
+  overflow: hidden;
+  padding-top: none;
+  padding-bottom: 8px;
+  margin-bottom: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* .service h2:hover {
+  box-shadow: inset 0 -60px 0 rgba(50, 85, 127, 0.5), 0 4px 0 rgba(50, 85, 127, 0.5);
+  padding-left: 5px;
+} */
