@@ -57,7 +57,7 @@ import JudgeDashboard from './judge/Judgedashboard';
 import COADashboard from './coa/COAdashboard';
 import ClientForm from './REGISTER/Client-register';
 import AdvocateForm from './REGISTER/Advocate-register';
-import SetPassword from './components/Setpassword';
+import SetPassword from './components/SetPassword';
 import Advpassword from "./components/privateAdvpassword.jsx";
 import PaymentComponent from './dashborad-components/payment.jsx';
 import AdvocateList from './dashborad-components/AdvoacateList.jsx';
