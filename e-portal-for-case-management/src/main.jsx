@@ -81,7 +81,7 @@ import LoginPage from "./pages/login.jsx";
 import { AuthProvider } from './AuthContext'; // assuming you have AuthContext set up
 import Chat from './Chat/Chat.jsx';
 import Apps from './Temp.jsx';
-import "./app.css";
+import "./App.css";
 import Casefileopt from "./client_dashboard/CaseFileOpt.jsx";
 import ClientCases from './client_dashboard/casedetails.jsx';
 import IndividualCasesID from './client_dashboard/individulcases.jsx';
