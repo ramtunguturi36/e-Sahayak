@@ -11,7 +11,7 @@ import {
   IoHelpCircleSharp,
 } from 'react-icons/io5';
 import { IoNotificationsOutline } from 'react-icons/io5';
-import client from '../assets/client.png';
+import client from '../assets/Client.png';
 import Chat from '../Chat/Chat';
 import Profile from '../client/Profile';
 import { FaMinus, FaPlus } from 'react-icons/fa';

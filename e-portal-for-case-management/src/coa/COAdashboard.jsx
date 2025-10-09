@@ -1,7 +1,7 @@
 // AdminDashboard.js
 import React, { useState, useEffect } from 'react';
 import './coadashboard.css'; // Add your CSS file for styling
-import adminIcon from '../assets/admin.png'; // Add your admin icon image
+import adminIcon from '../assets/Admin.png'; // Add your admin icon image
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 

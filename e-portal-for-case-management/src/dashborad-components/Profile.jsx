@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // Import axios
 import './Profile.css';
-import client from "../assets/client.png";
+import client from "../assets/Client.png";
 
 export default function Profile() {
   const [profileData, setProfileData] = useState({});

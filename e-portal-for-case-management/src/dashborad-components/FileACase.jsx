@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import './FileACase.css'; // Import the CSS file for styling
-import PartyInPersonImage from '../assets/client.png';
+import PartyInPersonImage from '../assets/Client.png';
 
 export default function FileACase() {
   const [selectedOption, setSelectedOption] = useState(null);

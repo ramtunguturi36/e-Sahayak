@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import advocateImage from "../assets/advocate.png";
+import advocateImage from "../assets/Advocate.png";
 import axios from "axios";
 import { Link } from 'react-router-dom';
 import { IoNotificationsOutline } from "react-icons/io5";
@@ -16,7 +16,7 @@ import causelist from "../assets/DASHBOARDS/Cause List.jpg";
 import scheduling from "../assets/DASHBOARDS/Scheduling calender.jpg";
 import caseanalytics from "../assets/DASHBOARDS/case analytics.jpg";
 import advocatelist from "../assets/DASHBOARDS/Advocate list.jpg";
-import client from "../assets/client.png";
+import client from "../assets/Client.png";
 import '../client/profile.css';
 import { useNavigate } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import judgeImage from "../assets/judge.png";
+import judgeImage from "../assets/Judge.png";
 import axios from "axios";
 import { Link } from 'react-router-dom';
 import { IoNotificationsOutline } from "react-icons/io5";
