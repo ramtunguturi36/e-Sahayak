@@ -2,6 +2,7 @@
  * main.jsx - Application Entry Point and Router Configuration
  * 
  * This is the main entry point of the application that sets up routing and global providers.
+ * Updated: Fixed CSS import path for Vercel deployment
  * It provides:
  * - Application routing configuration
  * - Global theme provider
