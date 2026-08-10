@@ -7,12 +7,12 @@ import { motion } from 'framer-motion';
 import { FaPlus,FaMinus } from 'react-icons/fa';
 import confrence from "../assets/DASHBOARDS/Video Conference.jpg";
 import document from "../assets/DASHBOARDS/Documentation.jpg";
-import scheduling from "../assets/DASHBOARDS/Scheduling calender.jpg";
+import scheduling from "../assets/DASHBOARDS/Scheduling Calender.jpg";
 import casedetails from "../assets/DASHBOARDS/Case Details.jpg";
 import causelist from "../assets/DASHBOARDS/Cause List.jpg";
 import casetracking from "../assets/DASHBOARDS/Case tracking.jpg";
 import caseanalytics from "../assets/DASHBOARDS/Case Analytics.jpg";
-import "./judgedashboard.css";
+import "./Judgedashboard.css";
 import { useNavigate } from 'react-router-dom';
 import MyCases from '../client_dashboard/casedetails';
 
@@ -24,7 +24,7 @@ import { BsChatDots } from "react-icons/bs";
 
 import { App as SendbirdApp } from "sendbird-uikit";
 import "sendbird-uikit/dist/index.css";
-import "../Chat/Chat.css"
+import "../Chat/chat.css"
 
 const JudgeDashboard = () => {
   const [selectedComponent, setSelectedComponent] = useState(<BriefcaseDashboard/>);

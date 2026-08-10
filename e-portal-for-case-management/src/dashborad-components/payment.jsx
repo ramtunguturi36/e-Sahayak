@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Payment.css'; // Import your CSS file
+import './payment.css'; // Import your CSS file
 import { Link } from 'react-router-dom';
 
 const PaymentOption = ({ option, selectedOption, handleOptionChange, selectedCaseType, handleCaseTypeChange }) => {

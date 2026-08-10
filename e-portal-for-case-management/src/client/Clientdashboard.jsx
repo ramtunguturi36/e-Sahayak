@@ -13,7 +13,7 @@ import {
 import { IoNotificationsOutline } from 'react-icons/io5';
 import client from '../assets/Client.png';
 import Chat from '../Chat/Chat';
-import Profile from '../client/Profile';
+import Profile from './Profile';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';  // Import Link from react-router-dom
@@ -28,7 +28,7 @@ import document from "../assets/DASHBOARDS/Documentation.jpg";
 import casedetails from "../assets/DASHBOARDS/Case Details.jpg";
 import casetracking from "../assets/DASHBOARDS/Case tracking.jpg";
 import causelist from "../assets/DASHBOARDS/Cause List.jpg";
-import scheduling from "../assets/DASHBOARDS/Scheduling calender.jpg";
+import scheduling from "../assets/DASHBOARDS/Scheduling Calender.jpg";
 import caseanalytics from "../assets/DASHBOARDS/Case Analytics.jpg";
 import advocatelist from "../assets/DASHBOARDS/Advocate List.jpg";
 import MyCases from '../client_dashboard/casedetails';

@@ -1,7 +1,7 @@
 // FileACase.jsx
 
 import React, { useState } from 'react';
-import './FileACase.css'; // Import the CSS file for styling
+import './fileacase.css'; // Import the CSS file for styling
 import PartyInPersonImage from '../assets/Client.png';
 
 export default function FileACase() {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AdvocateList.css'; // Import your CSS file
+import './Advocatelist.css'; // Import your CSS file
 
 const AdvocateList = () => {
   const [selectedType, setSelectedType] = useState(null);

@@ -1,7 +1,7 @@
 // PartyInPersonForm.js
 
 import React, { useState } from 'react';
-import './PartyInPerson.css';
+import './partyinperson.css';
 
 const PartyInPersonForm = () => {
   const [formData, setFormData] = useState({

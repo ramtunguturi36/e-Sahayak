@@ -11,7 +11,7 @@ import DefendantDetailsForm from '../components/DefendantDetailsForm';
 import CaseAndCourtDetailsForm from '../components/CaseandCourtDetailsForm';
 import DocumentUploadForm from '../components/DocumentUploadForm';
 import PaymentDetailsForm from '../components/PaymentDetailsForm';
-import PublicAttorneyRequestForm from '../client_dashboard/PublicAttorneyRequestForm';
+import PublicAttorneyRequestForm from './PublicAttorneyRequestForm';
 
 // Import styles
 import './PartyInPerson.css';

@@ -1,6 +1,6 @@
 // AdminDashboard.js
 import React, { useState, useEffect } from 'react';
-import './coadashboard.css'; // Add your CSS file for styling
+import './Coadashboard.css'; // Add your CSS file for styling
 import adminIcon from '../assets/Admin.png'; // Add your admin icon image
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -8,15 +8,15 @@ import axios from 'axios';
 import { IoNotificationsOutline } from 'react-icons/io5';
 import addlawyers from '../assets/admindashboard/Admin Pics/Adding Govt Lawyers.jpg';
 import assignjudge from '../assets/admindashboard/Admin Pics/Assign Judges Advocates.jpg';
-import caseanalytics from '../assets/admindashboard/Admin Pics/case analytics.jpg';
-import Documentation from '../assets/admindashboard/Admin Pics/documentation.jpg';
-import news from '../assets/admindashboard/Admin Pics/latest news.jpg';
-import resources from '../assets/admindashboard/Admin Pics/managing resources.jpg';
-import recievecases from '../assets/admindashboard/Admin Pics/receice filed Cases.jpg';
-import scheduling from '../assets/admindashboard/Admin Pics/scheduling calender.jpg';
-import notifications from '../assets/admindashboard/Admin Pics/sending notifications.jpg';
-import updatecauselist from '../assets/admindashboard/Admin Pics/updating causelist.jpg';
-import videoconfrence from '../assets/admindashboard/Admin Pics/video conference.jpg';
+import caseanalytics from '../assets/admindashboard/Admin Pics/Case Analytics.jpg';
+import Documentation from '../assets/admindashboard/Admin Pics/Documentation.jpg';
+import news from '../assets/admindashboard/Admin Pics/Latest News.jpg';
+import resources from '../assets/admindashboard/Admin Pics/Managing Resources.jpg';
+import recievecases from '../assets/admindashboard/Admin Pics/Receice Filed Cases.jpg';
+import scheduling from '../assets/admindashboard/Admin Pics/Scheduling Calender.jpg';
+import notifications from '../assets/admindashboard/Admin Pics/Sending Notifications.jpg';
+import updatecauselist from '../assets/admindashboard/Admin Pics/Updating CauseList.jpg';
+import videoconfrence from '../assets/admindashboard/Admin Pics/Video Conference.jpg';
 import { App as SendbirdApp } from "sendbird-uikit";
 import "sendbird-uikit/dist/index.css";
 import {motion} from "framer-motion"

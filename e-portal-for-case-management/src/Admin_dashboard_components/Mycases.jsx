@@ -19,8 +19,8 @@ import theme from '../theme';
 import { styled, createTheme } from '@mui/system';
 import { tableCellClasses } from '@mui/material/TableCell';
 import { TextField, InputAdornment } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import Search from '@mui/icons-material/Search';
+import SearchIcon from '@mui/icons-material/Search.js';
+import Search from '@mui/icons-material/Search.js';
 import { BeatLoader } from 'react-spinners';
 
 const AdminDashboard = () => {

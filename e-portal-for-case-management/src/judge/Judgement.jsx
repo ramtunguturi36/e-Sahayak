@@ -21,8 +21,8 @@ import {
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import PrintIcon from '@mui/icons-material/Print';
-import CloseIcon from '@mui/icons-material/Close';
+import PrintIcon from '@mui/icons-material/Print.js';
+import CloseIcon from '@mui/icons-material/Close.js';
 
 const Judgement = () => {
   const [caseNumber, setCaseNumber] = useState('');

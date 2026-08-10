@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Profile.css';
+import './profile.css';
 import client from "../assets/Client.png";
 
 export default function Profile() {

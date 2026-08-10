@@ -1,7 +1,7 @@
 // Profile.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // Import axios
-import './Profile.css';
+import './profile.css';
 import Advocate from "../assets/Advocate.png";
 
 export default function Profile() {

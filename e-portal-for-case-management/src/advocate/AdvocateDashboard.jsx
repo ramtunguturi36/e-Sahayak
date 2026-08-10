@@ -13,7 +13,7 @@ import document from "../assets/DASHBOARDS/Documentation.jpg";
 import casedetails from "../assets/DASHBOARDS/Case Details.jpg";
 import casetracking from "../assets/DASHBOARDS/Case tracking.jpg";
 import causelist from "../assets/DASHBOARDS/Cause List.jpg";
-import scheduling from "../assets/DASHBOARDS/Scheduling calender.jpg";
+import scheduling from "../assets/DASHBOARDS/Scheduling Calender.jpg";
 import caseanalytics from "../assets/DASHBOARDS/Case Analytics.jpg";
 import advocatelist from "../assets/DASHBOARDS/Advocate List.jpg";
 import client from "../assets/Client.png";
@@ -26,7 +26,7 @@ import { CgProfile } from "react-icons/cg";
 import { BsChatDots } from "react-icons/bs";
 import { App as SendbirdApp } from "sendbird-uikit";
 import "sendbird-uikit/dist/index.css";
-import "../Chat/Chat.css"
+import "../Chat/chat.css"
 
 const FAQ_DATA = [
   {

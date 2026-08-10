@@ -25,7 +25,7 @@ import document from "./assets/DASHBOARDS/Documentation.jpg";
 import casedetails from "./assets/DASHBOARDS/Case Details.jpg";
 import casetracking from "./assets/DASHBOARDS/Case tracking.jpg";
 import causelist from "./assets/DASHBOARDS/Cause List.jpg";
-import scheduling from "./assets/DASHBOARDS/Scheduling calender.jpg";
+import scheduling from "./assets/DASHBOARDS/Scheduling Calender.jpg";
 import caseanalytics from "./assets/DASHBOARDS/Case Analytics.jpg";
 import advocatelist from "./assets/DASHBOARDS/Advocate List.jpg";
 import MyCases from './client_dashboard/casedetails';

@@ -10,7 +10,9 @@ import {
   Grid,
   Paper,
 } from '@mui/material';
-import { Add, Delete, Update } from '@mui/icons-material';
+import Add from '@mui/icons-material/Add.js';
+import Delete from '@mui/icons-material/Delete.js';
+import Update from '@mui/icons-material/Update.js';
 import { styled } from '@mui/system';
 
 const Container = styled('div')({

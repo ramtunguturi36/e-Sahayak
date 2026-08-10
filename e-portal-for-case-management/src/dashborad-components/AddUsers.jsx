@@ -1,6 +1,6 @@
 // LawyersForm.jsx
 import React, { useState } from 'react';
-import './AddUsers.css';
+import './addusers.css';
 
 export default function AddUsers() {
   const [showJudgesForm, setShowJudgesForm] = useState(false);

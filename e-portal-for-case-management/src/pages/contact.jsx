@@ -1,6 +1,6 @@
 // ContactUs.js
 import React, { useState } from 'react';
-import './ContactUs.css';
+import './contactus.css';
 import contact from "../assets/contact-bg.avif";
 
 const ContactUs = () => {
